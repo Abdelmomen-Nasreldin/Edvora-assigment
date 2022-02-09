@@ -1,0 +1,12 @@
+
+.container .image {
+    background: #fff;
+}
+.container .image img{
+    width: 200px !important;
+    height: 200px !important;
+}
+/* img{} */
+.image img{
+    width: 100px
+    }

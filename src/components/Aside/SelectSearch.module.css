@@ -1,0 +1,19 @@
+.selectBox{
+    padding: 0 13px;
+    background: #232323;
+    border-radius: 5px;
+}
+.selectBox select{
+    background: #232323;
+    width: 169px;
+    height: 37.5px;
+   
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+}
+
+.selectBox select:focus-visible{
+    outline: none;
+}

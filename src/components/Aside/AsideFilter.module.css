@@ -1,0 +1,22 @@
+.filter__container{
+    width: 228px;
+    height: 275px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.filter__container h2{
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+
+.select__search{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

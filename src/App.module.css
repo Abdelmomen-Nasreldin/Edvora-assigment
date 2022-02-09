@@ -1,0 +1,8 @@
+.App{
+  background: #292929;
+  color: #FFFFFFDE;
+  display: flex;
+  flex-wrap: wrap;
+  padding:40px;
+  
+}
