@@ -1,19 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from './SelectSearch.module.css'
-const SelectSearch = ({ products, onAnswer }) => {
-  const [selected, setSelected] = useState("");
-  const choisedAnswer = (e) => {
-    setSelected(e.target.value);
-    onAnswer(e.target.value);
-  };
+const SelectSearch = ({ options, onSelect, selected, defaultValue }) => {
   return (
     <div className={`${classes.selectBox}`}>
-      <select value={selected} onChange={choisedAnswer}>
-        {products &&
-          products.map((product) => {
+      <select value={selected} onChange={onSelect}>
+      <option value={``}>{defaultValue}</option>
+        {
+        options && 
+          options.map((option) => {
             return (
               <>
-                <option value={product}>{product}</option>
+                <option value={option}>{option}</option>
               </>
             );
           })}
