@@ -3,10 +3,12 @@
     background: #fff;
 }
 .container .image img{
-    width: 200px !important;
+    width: 100% !important;
+    /* width: 200px !important; */
     height: 200px !important;
+    object-fit: cover;
 }
 /* img{} */
-.image img{
+/* .image img{
     width: 100px
-    }
+    } */

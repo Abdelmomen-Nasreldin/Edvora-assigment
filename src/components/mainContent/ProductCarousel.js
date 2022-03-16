@@ -7,29 +7,38 @@ var settings = {
   dots: false,
   infinite: false,
   speed: 400,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 3,
   initialSlide: 1,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1400,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 2,
         infinite: true,
-        dots: false,
+        dots: true,
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 1200,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 850,
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 1,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 575,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
